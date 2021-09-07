@@ -1,14 +1,16 @@
 import java.util.Scanner;
-public class Factorial1
-{
-  public static void main(String[]args)
-  {
-   int i,fact=1;
-   int number=10;
-   for(i=1;i<=number;i++)
-  {
-    fact=fact*i;
-  }
-   System.out.println("The factorial of"+number+"is:"+fact);
-  }
+public class Swap2{
+   public static void main(String[]args)
+   {
+    int x=100,y=200;
+    System.out.println("Before Swap");
+    System.out.println("x="+x);
+    System.out.println("y="+y);
+    int temp=x;
+    x=y;
+    y=temp;
+    System.out.println("After Swap");
+    System.out.println("x="+x);
+    System.out.println("y="+y);
+   }
 }
